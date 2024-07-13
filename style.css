@@ -1,16 +1,16 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: "Lato", sans-serif;
     text-transform: capitalize;
 }
 
 /* common */
-.btn-1{
+.btn-1 {
     width: 177px;
     height: 64px;
     padding: 20px 43px;
@@ -25,58 +25,65 @@ body{
 }
 
 /* header section*/
-header{
+header {
     width: 100%;
     max-height: 850px;
     background-color: rgba(229, 84, 115, 0.1);
     padding: 50px 50px 0px 50px;
 
-    
+
 }
-.hero{
+
+.hero {
     max-width: 1140px;
     height: 100%;
-    margin:  auto;
-   
+    margin: auto;
+
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 
 
-     
+
 }
-.hero > div{
-    margin: 0px 10px ;
+
+.hero>div {
+    margin: 0px 10px;
 }
-.hero-tittle{
+
+.hero-tittle {
     width: 50%;
 
-    
+
 }
-.hero-tittle  h1{
+
+.hero-tittle h1 {
     font-size: 50PX;
     font-weight: 800;
-    line-height:70px;
+    line-height: 70px;
     text-align: left;
 }
-.hero-tittle p{
+
+.hero-tittle p {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
     text-align: left;
     margin: 10px 0;
 }
-.hero .image{
+
+.hero .image {
     width: 50%;
 
-    
+
 
 }
-.hero .image img{
+
+.hero .image img {
     width: 100%;
-   
-   
-    
+
+
+
 }
 
 
@@ -85,125 +92,135 @@ header{
 /* medium devices*/
 
 @media screen and (max-width:900px) {
-    
-    .hero{
-      
+
+    .hero {
+
         justify-content: space-between;
         align-items: center;
-    
-         
+
+
     }
-    .hero-tittle{
+
+    .hero-tittle {
         width: 50%;
-        
+
     }
-    .hero-tittle  h1{
+
+    .hero-tittle h1 {
         font-size: 2rem;
         font-weight: 800;
-        line-height:50px;
-        
+        line-height: 50px;
+
     }
-    .hero .image{
+
+    .hero .image {
         width: 50%;
     }
-    .hero-img img{
+
+    .hero-img img {
         width: 100%;
-        
+
     }
 }
 
 /* small devices */
 
 @media screen and (max-width:700px) {
-    
-    .hero{
-      
-      flex-direction: column;
-    
-         
+
+    .hero {
+
+        flex-direction: column;
+
+
     }
-    .hero-tittle{
+
+    .hero-tittle {
         width: 100%;
-        
+
     }
-    .hero-tittle  h1{
+
+    .hero-tittle h1 {
         font-size: 1rem;
         font-weight: 800;
-        line-height:25px;
-        
+        line-height: 25px;
+
     }
-    .hero-tittle  p{
+
+    .hero-tittle p {
         font-size: 0.5rem;
         font-weight: 800;
-        line-height:10px;
-        
+        line-height: 10px;
+
     }
-    .hero .image{
+
+    .hero .image {
         width: 100%;
         text-align: right;
         display: flex;
         justify-content: center;
-       
+
     }
-    .hero .image img{
+
+    .hero .image img {
         width: 50%;
-        
+
 
     }
 
-    .btn-1{
+    .btn-1 {
         width: 100px;
         height: 30px;
         line-height: 2px;
         text-align: center;
         cursor: pointer;
         padding: 20px 10px;
-        
+
     }
-}   
-       
+}
+
 
 
 /* main */
 
-main{
+main {
     max-width: 1140px;
     margin: 100px auto;
     text-align: center;
-    
+
 }
 
 /* flower-1 section*/
 
-.flower-1{
+.flower-1 {
     width: 100%;
     margin: auto;
 }
-.flower-1 .card-container{
+
+.flower-1 .card-container {
     width: 100%;
-    
+
 }
 
-.flower-1 .tittle{
+.flower-1 .tittle {
     max-width: 550px;
     height: 132px;
     margin: auto;
 }
 
-.flower-1 .tittle h1{
+.flower-1 .tittle h1 {
     font-size: 40px;
     font-weight: 800;
     line-height: 48px;
 }
 
-.flower-1 .tittle p{
+.flower-1 .tittle p {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
     margin: 20px 0px;
 }
 
-.flower-1 .card-container{
+.flower-1 .card-container {
     width: 90%;
     margin: 50px auto;
     display: flex;
@@ -211,76 +228,77 @@ main{
     gap: 20px;
 }
 
-.flower-1 .card-container .card{
+.flower-1 .card-container .card {
     width: 30%;
-   
+
 
 }
 
-.flower-1 .card-container .card .img{
+.flower-1 .card-container .card .img {
     width: 90%;
     height: 90%;
     padding: 50px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
- 
+
 }
 
-.flower-1 .card-container .card .img img{
+.flower-1 .card-container .card .img img {
     width: 100%;
     height: 100%;
 }
 
-.flower-1 h5{
+.flower-1 h5 {
     /* width: 200px;
     height: 35px;
     margin: 20px auto; */
-    
+
     color: rgb(39, 39, 39);
     font-size: 20px;
     font-weight: 700;
     line-height: 35px;
     text-decoration-line: underline;
     /* text-align: justify; */
-    margin: 4% 10% 3% 2%
-
+    margin: 4% 11% 3% 0%
 }
 
 /* media query*/
 
-@media screen and (max-width:800px) {
-    .flower-1 .card-container{
+@media screen and (max-width:700px) {
+    .flower-1 .card-container {
         width: 100%;
         margin: auto;
         flex-direction: column;
         align-items: center;
         margin-top: 10%;
-        
+
     }
-    .flower-1 .card-container .card{
+
+    .flower-1 .card-container .card {
         width: 90%;
         margin: 5% auto;
-        
-        
-    
+
+
+
     }
-    .flower-1 .card-container .card .img{
+
+    .flower-1 .card-container .card .img {
         width: 100%;
         height: 100%;
     }
 
-    .flower-1 .tittle{
+    .flower-1 .tittle {
         width: 80vw;
         margin: auto;
     }
 
-    .flower-1 .tittle h1{
+    .flower-1 .tittle h1 {
         font-size: 1.5rem;
         font-weight: 800;
         line-height: 1rem;
     }
-    
-    .flower-1 .tittle p{
+
+    .flower-1 .tittle p {
         font-size: 18px;
         font-weight: 400;
         line-height: 30px;
@@ -290,5 +308,41 @@ main{
     .flower-1 h5 {
         margin: 5% 0 0 0;
     }
-    
+
+}
+
+
+
+/* support section */
+
+
+.support {
+    width: 100%;
+    height:320px ;
+    margin: 10% auto;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+
+.support .container{
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+
+
+@media screen and (max-width:700px) {
+    .support {
+        
+        height:70% ;
+      
+    }
+    .support .container{
+      
+        flex-direction: column;
+        padding: 20px;
+       
+    }
 }
