@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Lato", sans-serif;
+    text-transform: capitalize;
+}
+
+/* common */
+.btn-1{
+    width: 177px;
+    height: 64px;
+    padding: 20px 43px;
+    background-color: rgb(229, 84, 115);
+    color: white;
+    font-size: 700;
+    line-height: 24px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0px;
+}
+
+/* header section*/
+header{
+    max-width: 100VW;
+    max-height: 850px;
+    background-color: rgba(229, 84, 115, 0.1);
+
+    
+}
+.hero{
+    width: 90%;
+    height: 100%;
+    margin:  auto;
+    padding: 50px 50px 0px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+     
+}
+.hero-tittle{
+    width: 50%;
+
+    
+}
+.hero-tittle  h1{
+    font-size: 50PX;
+    font-weight: 800;
+    line-height:70px;
+    text-align: left;
+}
+.hero-tittle p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    margin: 10px 0;
+}
+.hero .image{
+    width: 50%;
+    
+
+}
+.hero .image img{
+    width: 100%;
+    
+}
+
+
+/* media query */
+
+/* medium devices*/
+
+@media screen and (max-width:900px) {
+    
+    .hero{
+      
+        justify-content: space-between;
+        align-items: center;
+    
+         
+    }
+    .hero-tittle{
+        width: 50%;
+        
+    }
+    .hero-tittle  h1{
+        font-size: 2rem;
+        font-weight: 800;
+        line-height:50px;
+        
+    }
+    .hero .image{
+        width: 50%;
+    }
+    .hero-img img{
+        width: 100%;
+        
+    }
+}
+
+/* small devices */
+
+@media screen and (max-width:700px) {
+    
+    .hero{
+      
+      flex-direction: column;
+    
+         
+    }
+    .hero-tittle{
+        width: 100%;
+        
+    }
+    .hero-tittle  h1{
+        font-size: 1rem;
+        font-weight: 800;
+        line-height:25px;
+        
+    }
+    .hero-tittle  p{
+        font-size: 0.5rem;
+        font-weight: 800;
+        line-height:10px;
+        
+    }
+    .hero .image{
+        width: 100%;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+       
+    }
+    .hero .image img{
+        width: 50%;
+        
+
+    }
+
+    .btn-1{
+        width: 100px;
+        height: 30px;
+        line-height: 2px;
+        text-align: center;
+        cursor: pointer;
+        padding: 20px 10px;
+        
+    }
+}   
+       
