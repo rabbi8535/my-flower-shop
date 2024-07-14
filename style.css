@@ -516,3 +516,103 @@ main {
         
     }
 }
+
+
+/* feedback section */
+
+.feedback{
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    background: url(Asset/Rectangle\ 9.png) no-repeat center center;
+    background-size: cover;
+    background-attachment: scroll;
+    border-radius: 16px;
+}
+
+.feedback .container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.feedback .container h3{
+    color:rgb(39, 39, 39);;
+    font-size: 1.8rem;
+    font-weight: 800;
+    line-height: 2.5rem;
+}
+.feedback .container p{
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 1rem;
+    line-height: 2rem;
+    font-weight: 400;
+}
+
+.feedback .container .input{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5% auto;
+
+}
+
+.feedback .container input[type='email']{
+
+    width: 70%;
+    height: 50px;
+    border-radius: 8px;
+    background-color: white;
+    border: none;
+    text-align: center;
+    margin: 0 2%;
+}
+
+
+
+.feedback .container .input button{
+    width: 20%;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* media query*/
+
+@media screen and (min-width:280px) and (max-width:600px) {
+    
+    .feedback .container h3{
+        font-size: 1.2rem;
+    }
+    .feedback .container p{
+        font-size: 0.7rem;
+    }
+    .feedback .container .input{
+        flex-direction: column;
+        align-content: space-evenly;
+    
+    }
+
+    .feedback .container input[type='email']{
+
+        width: 100%;
+        height: 50px;
+        border-radius: 8px;
+        background-color: white;
+        border: none;
+        text-align: center;
+        margin: 10% 2%;
+    }
+
+    .feedback .container .input button{
+        width: 100%;
+    }
+
+    
+}
